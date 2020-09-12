@@ -9,7 +9,7 @@ input.onPinPressed(TouchPin.P0, function () {
         } else if (pins.analogReadPin(AnalogPin.P1) > 682) {
             omár2()
         } else {
-            if (734 < input.magneticForce(Dimension.Strength)) {
+            if (34 < input.magneticForce(Dimension.Strength)) {
                 basic.showNumber(omár)
             }
         }
