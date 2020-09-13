@@ -65,6 +65,7 @@ function fizets () {
             omár += omárv
         }
     }
+    omárv = 0
 }
 basic.forever(function () {
     if (pins.analogReadPin(AnalogPin.P2) > 1020) {
